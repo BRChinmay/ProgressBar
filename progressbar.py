@@ -1,6 +1,6 @@
 from time  import sleep
 class progressbar :
-    ncol = 13
+    ncol = 40
     def __init__(self,iterable):
         self._iterable = iterable
         self._n = len(iterable)
